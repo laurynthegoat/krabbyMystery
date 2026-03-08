@@ -12,10 +12,14 @@
 }
 
 .title{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: SpongeBob;
   color:#1959a6ff;
 } 
 
+@font-face {
+  font-family: SpongeBob;
+  src: url(Krabby\ Patty.ttf);
+}
 
 
 button{
@@ -66,4 +70,6 @@ h2{
 }
 
 
-span{color:#e99b3dff;}
+span{
+  color:#e99b3dff;
+}

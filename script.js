@@ -77,9 +77,9 @@ happy.addEventListener("click", function (){
     home.style.display="initial";
 });
 
-endStory.addEventListener("click", function (){
+endStory.addEventListener("dblclick", function (){
     question.innerHTML = "It’s a bright morning in Bikini Bottom, and SpongeBob arrives at the Krusty Krab ready to flip patties but when he opens the fridge, the secret Krabby Patty formula is missing! <br>Mr. Krabs is panicking, Squidward doesn’t care, and Plankton’s been acting <em>extra suspicious</em>";
-    pic.src = "missing formula.png"
+    pic.src = "missingFormula.png"
     option3.style.display="none";
     option4.style.display="none";
     endStory.style.display="none";
@@ -87,9 +87,9 @@ endStory.addEventListener("click", function (){
     option2.style.display="initial";
 });
 
-findFormula.addEventListener("click", function (){
+findFormula.addEventListener("mouseover", function (){
     question.innerHTML = "It’s a bright morning in Bikini Bottom, and SpongeBob arrives at the Krusty Krab ready to flip patties but when he opens the fridge, the secret Krabby Patty formula is missing! <br>Mr. Krabs is panicking, Squidward doesn’t care, and Plankton’s been acting <em>extra suspicious</em>";
-    pic.src = "missing formula.png"
+    pic.src = "missingFormula.png"
     option3.style.display="none";
     option4.style.display="none";
     findFormula.style.display="none";
@@ -97,9 +97,9 @@ findFormula.addEventListener("click", function (){
     option2.style.display="initial";
 });
 
-home.addEventListener("click", function (){
+home.addEventListener("dblclick", function (){
     question.innerHTML = "It’s a bright morning in Bikini Bottom, and SpongeBob arrives at the Krusty Krab ready to flip patties but when he opens the fridge, the secret Krabby Patty formula is missing! <br>Mr. Krabs is panicking, Squidward doesn’t care, and Plankton’s been acting <em>extra suspicious</em>";
-    pic.src = "missing formula.png"
+    pic.src = "missingFormula.png"
     home.style.display="none";
     option1.style.display="initial";
     option2.style.display="initial";
